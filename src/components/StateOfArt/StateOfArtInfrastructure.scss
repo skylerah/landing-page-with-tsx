@@ -1,0 +1,50 @@
+.state-of-art-infrastructure {
+    // Dark blue background
+    background-color: #0A1D2F;
+    padding: 4rem 2rem;
+    color: white;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .image-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
+
+        img {
+            max-width: 400px;
+            height: auto;
+        }
+    }
+
+    .text-content {
+        max-width: 500px;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    }
+}

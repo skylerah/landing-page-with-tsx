@@ -1,0 +1,74 @@
+.header {
+    background: url('.../../../../assets/bg-pattern-intro-desktop.svg' ) no-repeat center center;
+    background-size: fit;
+    background-color: hsl(356, 100%, 66%);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 100px;
+    
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-links,
+        .navbar-auth {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .sign-up {
+                border: 2px solid white;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+
+                &:hover {
+                    background: white;
+                    color: #FF6B6B;
+                }
+            }
+        }
+    }
+
+    .header-title {
+        margin: 1rem 0;
+    }
+
+    .header-subtitle {
+        margin: 1rem 0 2rem 0;
+    }
+
+    .header-buttons {
+        button {
+            background: white;
+            color: #FF6B6B;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            cursor: pointer;
+
+            &:hover {
+                background: #FF8E53;
+                color: white;
+            }
+        }
+    }
+}
